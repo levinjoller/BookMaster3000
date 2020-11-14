@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="adf1c6e43adb415bb9c3bfe8fd8772d9" Name="Diagram1">
+        <EntityTypeShape EntityType="ictskills2017Model.Authors" Width="1.5" PointX="0.75" PointY="4.875" />
+        <EntityTypeShape EntityType="ictskills2017Model.BookCovers" Width="1.5" PointX="5.25" PointY="7.375" />
+        <EntityTypeShape EntityType="ictskills2017Model.BookCustomers" Width="1.5" PointX="5.25" PointY="3.625" />
+        <EntityTypeShape EntityType="ictskills2017Model.Books" Width="1.5" PointX="3" PointY="4.625" />
+        <EntityTypeShape EntityType="ictskills2017Model.BookSubjects" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="ictskills2017Model.Customer" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="ictskills2017Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.625" />
+        <EntityTypeShape EntityType="ictskills2017Model.User" Width="1.5" PointX="0.75" PointY="8.625" />
+        <AssociationConnector Association="ictskills2017Model.FK_dbo_BookCovers_dbo_Books_Book_Key" />
+        <AssociationConnector Association="ictskills2017Model.FK_BookCustomers_Books" />
+        <AssociationConnector Association="ictskills2017Model.FK_BookCustomers_Customer" />
+        <AssociationConnector Association="ictskills2017Model.FK_dbo_BookSubjects_dbo_Books_Book_Key" />
+        <AssociationConnector Association="ictskills2017Model.BookAuthors" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
