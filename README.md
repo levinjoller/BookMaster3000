@@ -10,8 +10,7 @@ track the circulation (lending and returning books).
 * Entity Framework v6.2.0
 
 ## Installation
-* Insert the database backup (./BookMaster3000/db/Backup_Bookmaster.sql) into your local MSSQL server.
-* Fill the database with sample data. (Sorry, I had to shrink the backup, because it was over 100MB)
+* Download the SQL Backup on this Site: [IT Software Solutions for Business](https://drive.google.com/drive/folders/1NsxHlxabQpK_Y5E5nOsfRt5mcy8LZT8s) (Sorry, the SQL file was to big for Github)
 
 NOTE:\
 If you have another MSSQL version than express, the connection string in the App.config file must be adjusted.
