@@ -17,3 +17,7 @@ If you have another MSSQL version than express, the connection string in the App
 
 ## Author
 Levin Joller
+
+## DEPRECATED
+This project is no longer in development.
+It fulfilled its purpose as an exercise.
